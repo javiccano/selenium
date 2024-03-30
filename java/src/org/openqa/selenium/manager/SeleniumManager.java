@@ -62,7 +62,7 @@ public class SeleniumManager {
   private static final Logger LOG = Logger.getLogger(SeleniumManager.class.getName());
 
   private static final String SELENIUM_MANAGER = "selenium-manager";
-  private static final String DEFAULT_CACHE_PATH = "~/.cache/selenium";
+  private static final String DEFAULT_CACHE_PATH = "/data/javier/selenium"; // "~/.cache/selenium";
   private static final String BINARY_PATH_FORMAT = "/manager/%s/%s";
   private static final String HOME = "~";
   private static final String CACHE_PATH_ENV = "SE_CACHE_PATH";
